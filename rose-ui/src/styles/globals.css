@@ -1,0 +1,19 @@
+@import "./tokens.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(
+      circle at 20% 20%,
+      #34245d,
+      transparent 40%
+    ),
+    var(--rose-bg);
+
+  color: var(--rose-text);
+  font-family: Inter, sans-serif;
+}
